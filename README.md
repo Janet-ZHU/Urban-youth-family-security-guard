@@ -1,6 +1,8 @@
 # -2018年10月13日 发布version0.0
 本程序是EEWORLD举办的兆易创新GD32F350创新大赛的程序作品，涉及ov5640等传感器。
 
+解压后，用keil打开  ..\myprogram\Projects\myprogram\Keil_project ，即可.
+
 个人应用程序，主要在main.c 和 gd32f3x0_it.c文档末尾的ETI中断处理函数中定义，依赖于GD32F350官方固件库。
 
 本程序使用了GPIO，TIMER捕获，RTC，DMA，外部中断，I2C，FLASH, UART，PLL等模块。
